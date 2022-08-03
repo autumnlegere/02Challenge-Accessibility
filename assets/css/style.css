@@ -1,0 +1,155 @@
+/*Page layout*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Page background color*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*Heading position, font, backgroud color, and font color*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Heading display position and font size for h1*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*Color of h1 letters "seo"*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*Navigation bar display position, font, and font size*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Display position for navigation bar list*/
+.header nav ul {
+    list-style-type: none;
+}
+
+/*Display position for navigation bar links*/
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Color and text decoration for navigation bar links*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Font size for all paragraphs on page*/
+p {
+    font-size: 16px;
+}
+
+/*Size of Digital Marketing Image and link to image*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Display position for content section*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Height for images in content section*/
+.content img {
+    max-height: 200px;
+}
+
+/*Margin and font size for h2 headings in content section*/
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px; 
+}
+
+/*Positioning, font, background color, and font color for articles in the content section*/
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Positioning for images in search engine optimization and social media marketing articles in content section*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Positioning for image in online reputation management article in content section*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Display details for aside*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*Positioning of h3's in aside*/
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Positioning and size of images in aside*/
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Bottom margin and color for each section of aside*/
+.benefits section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Display, positioning, font, and text alignment of footer*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*Heading h4 font size in footer*/
+.footer h4 {
+    font-size: 20px;
+}
